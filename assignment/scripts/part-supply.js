@@ -84,3 +84,23 @@ for (let x = 0; x < supplyChanges.length; x++); {
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
+
+let parts = 572;
+let boxFill = parts / 7;
+let boxFull = 0;
+
+//while (boxFull <= 7) {
+//boxFull = parts / boxFill;
+// console.log(boxFull);
+//console.log(parts);
+// }
+
+while (parts > 0) {
+    parts = parts - 7;
+    console.log("Parts used:", parts);
+    if (parts - 7);
+    boxFull++
+    console.log("Boxes filled:", boxFull);
+}
+if (-parts);
+console.log("Parts left over:", -parts);
