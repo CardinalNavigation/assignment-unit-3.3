@@ -73,12 +73,11 @@ for (x of supplyChanges) {
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('8. Total supplies available is:');
 
-for (totalSupply of supplyChanges) {
-    if (supplyChanges.length);
-    
-    console.log(supplyChanges.length)
-    console.log(supplyChanges);
-    break;
+let totalSupply = 0
+
+for (x of supplyChanges) {
+    totalSupply += x;
+    console.log(totalSupply)
 }
 
 // 9. We have a large stash of parts in our warehouse that we 
@@ -100,5 +99,4 @@ while (parts >= 6) {
 }
 
 console.log("Boxes filled:", boxFull);
-if (parts <= 6);
 console.log("Parts left over:", parts);
